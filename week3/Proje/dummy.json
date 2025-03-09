@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 13 128 Gb Akıllı Telefon Yıldız Işığı",
+      "price": 33.999,
+      "description": "Süper parlak bir ekran ve dayanıklı tasarım. Filmleri aratmayan, kolay video çekimleri. Işık hızında bir çip. Ve hayatınızda fark yaratan çok daha uzun pil ömrü.",
+      "link": "https://www.vatanbilgisayar.com/iphone-13-128-gb-akilli-telefon-yildiz-isigi.html"
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy A55 8/256 GB Akıllı Telefon Mavi",
+      "price": 19.499,
+      "description":"Galaxy A55 5G ile tanışın. Sade ancak gelişmiş Galaxy A serisi, 3’lü kamera yerleşimine sahip çıkıntısız metal çerçevesiyle kolay ve rahat bir tutuş sunan ikonik bir tasarıma sahiptir.",
+      "link": "https://www.vatanbilgisayar.com/samsung-galaxy-a55-8-256-gb-akilli-telefon-mavi.html"
+    },
+    {
+      "id": 3,
+      "name": "TCL Onetouch 4022S Tuşlu Telefon Gray",
+      "price": 2.599,
+      "description":"TCL Onetouch 4022S, 2.8 inç ekranı ve 2 MP kamerası ile kullanıcılarına yüksek kalitede fotoğraflar çekme imkanı sunuyor.",
+      "link": "https://www.vatanbilgisayar.com/tcl-onetouch-4022s-tuslu-telefon-gray.html"
+    },
+    {
+      "id": 4,
+      "name": "Vivo Y28 8/256 Gb Akıllı Telefon Metalik Yeşil",
+      "description":"Vivo Y28, 6.68 inç büyüklüğünde 1608 x 720 piksel çözünürlüğünde bir ekranla geliyor. Telefonun işlemci tarafında ise MediaTek Helio G85 bulunuyor.",
+      "price": 11.399,
+      "link": "https://www.vatanbilgisayar.com/vivo-y28-8-256-gb-akilli-telefon-metalik-yesil.html"
+    }
+  ]
+}
