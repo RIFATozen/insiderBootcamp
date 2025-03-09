@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İş Başvuru Formu</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>İş Başvuru Formu</h1>
+      <button id="applyBtn" class="btn primary-btn">Başvur</button>
+      
+      <div id="applicationForm" class="form-container">
+        <div class="form-header">
+          <h2>Başvuru Formu</h2>
+          <button id="closeBtn" class="close-btn">&times;</button>
+        </div>
+        
+        <form id="jobForm">
+          <div class="form-group">
+            <label for="firstName">İsim</label>
+            <input type="text" id="firstName" name="firstName" class="form-control">
+          </div>
+          
+          <div class="form-group">
+            <label for="lastName">Soyisim</label>
+            <input type="text" id="lastName" name="lastName" class="form-control">
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" class="form-control">
+          </div>
+          
+          <div class="form-group">
+            <label for="phone">Telefon Numarası</label>
+            <input type="text" id="phone" name="phone" class="form-control">
+          </div>
+          
+          <div class="form-group">
+            <label for="position">Pozisyon</label>
+            <select id="position" name="position" class="form-control">
+              <option value="">Bir pozisyon seç</option>
+              <option value="developer">Software Developer</option>
+              <option value="designer">UX Designer</option>
+              <option value="manager">Project Manager</option>
+              <option value="analyst">Data Analyst</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="birthdate">Doğum Tarihi</label>
+            <input type="text" id="birthdate" name="birthdate" class="form-control datepicker">
+          </div>
+          
+          <div class="form-group">
+            <label for="resume">Özgeçmiş Yükle</label>
+            <input type="file" id="resume" name="resume" class="form-control">
+          </div>
+          
+          <div class="form-group">
+            <button type="submit" class="btn submit-btn">Başvurumu Gönder</button>
+          </div>
+        </form>
+      </div>
+      
+      <div id="successMessage" class="success-message">
+        <div class="success-content">
+          <h3>Başvurunuz Gönderildi!</h3>
+          <p>Başvurunuz için teşekkür ederiz. Yakında sizinle iletişime geçeceğiz.</p>
+        </div>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
